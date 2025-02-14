@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- hero section for collapsing navbar and main message-->
+    <section id="our-main-message-section" class="d-flex align-items-center justify-content-center gradient-background">
+      <header class="position-absolute top-0 start-0 w-100">
+        <nav class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+          <!-- company Logo -->
+          <a href="/" class="d-flex align-items-center text-decoration-none">
+            <img src="./images/nyanza_edited.png" alt="company logo" width="150" height="50">
+          </a>
+      
+          <!-- Hamburger Menu Button (Hidden by Default) -->
+          <button class="navbar-toggler" id="menu-toggle">
+            ☰
+          </button>
+      
+          <!-- Navigation Links -->
+          <ul class="nav nav-pills" id="nav-links">
+            <li class="nav-item"><a href="#services-section" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#additional-info-section" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#team-section" class="nav-link">Team</a></li>
+            <li class="nav-item"><a href="#career-section" class="nav-link">Careers</a></li>
+            <li class="nav-item"><a href="mailto:nyanzatechnologies@gmail.com" class="nav-link active">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+      <div class="container text-center text-lg-start px-4 pb-5">
+        <div class="row align-items-center justify-content-center g-5 py-5">
+          <div class="col-lg-10 main-message">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 main-message">
+              Unlocking the potential of AI and Geospatial data for Industry and Environment
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <!-- cards sections for services -->
+    <section id="services-section">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">We specialise in techonology solutions and data services across these sectors</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <div class="card-inner">
+                <div class="card-front d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-4 mb-4 display-6 lh-1 fw-bold">Asset Management Solutions</h3>
+                </div>
+                <div class="card-back d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1">
+                  <p>
+                    We build near real-time geospatial intelligence platforms to track, monitor and manage critical infrastructure across utilities, energy, renewable energy, 
+                    agriculture, logistics and urban development sectors. Our decision support dashboards integrates satellite imagery, AI-driven analytics, and IoT data to 
+                    inform predictive maintenance, risk assessments, operational insights, and assets registration, helping businesses reduce downtime, track and 
+                    optimize assets' performance, and enhance resilience in a changing climate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>            
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+              <div class="card-inner">
+                <div class="card-front d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-2 mt-2 mb-4 display-6 lh-1 fw-bold">Analytics Solutions for Business, Environment and Climate Action</h3>
+                </div>
+                <div class="card-back d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <p>
+                    We build powerful AI-driven geospatial analytics platforms to optimize land, water, and natural 
+                    resources management. Our platform delivers high-resolution environmental monitoring, carbon footprint assessments, and climate risk modeling, 
+                    empowering businesses, policymakers, and conservation organizations to make data-driven decisions that support sustainability, compliance, 
+                    and long-term resource planning.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-4.jpg');">
+              <div class="card-inner">
+                <div class="card-front flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h3 class="pt-5 mt-4 mb-4 display-6 lh-1 fw-bold">Datasets for Good and Intelligence</h3>
+                </div>
+                <div class="card-back flex-column h-100 p-4 pb-3 text-shadow-1">
+                  <p>
+                    We provide high-quality on-demand geospatial and satellite-derived datasets to support businesses 
+                    and organisations accross Finance, Insurance, Defense, Mining, Energy, Oil and Gas and Environmental sustainability. Our datasets enable 
+                    organisations, policymakers, and sustainability leaders derive actionable insights, improve risk scoring, improve policy decisions, and build a 
+                    more sustainable future. Example datasets include National urban trees dataset, forest depletion, Solar Panels, building footprints, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- team section cards -->
+    <section id="team-section">
+      <div class="container px-4 py-3" id="custom-cards">
+        <h2 class="pb-2 border-bottom core-team">Core Team</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-2 text-white text-shadow-1">
+                <img src="./images/Daniel_picture.jpg" alt="Image of Daniel" class="passport-img">
+                <h3 class="pt-3 mt-3 mb-2 display-6 lh-1 fw-bold">Daniel Anane Kumi</h3>
+                <ul class="d-flex list-unstyled mt-2">
+                  <li class="me-auto">
+                    <a href="https://www.linkedin.com/in/daniel-anane/" target="_blank">
+                      <img src="./images/circle-linkedin-512.webp" alt="linkedIn logo" width="32" height="32" class="rounded-circle border border-white">
+                    </a>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Founder & CEO</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <img src="./images/Selorm_Profile_Photo.JPG" alt="Image of Selorm" class="passport-img">
+                <!-- <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Selorm Komla Darkey</h3> -->
+                <h3 class="pt-3 mt-3 mb-2 display-6 lh-1 fw-bold">Selorm Komla Darkey</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a href="https://www.linkedin.com/in/selorm-komla-darkey-2679ab126/" target="_blank">
+                      <img src="./images/circle-linkedin-512.webp" alt="linkedIn logo" width="32" height="32" class="rounded-circle border border-white" >
+                    </a>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Founder & CTO</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <img src="./images/Ben2.jpg" alt="Image of Bennard" class="passport-img">
+                <!-- <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bennard Ayivor</h3> -->
+                <h3 class="pt-3 mt-3 mb-2 display-6 lh-1 fw-bold">Bennard Ayivor</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a href="https://www.linkedin.com/in/bennard-ayivor-5212209b/" target="_blank">
+                      <img src="./images/circle-linkedin-512.webp" alt="linkedIn logo" width="32" height="32" class="rounded-circle border border-white">
+                    </a>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Founder & COO</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- More Info about our work -->
+    <section id="additional-info-section">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <!-- <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
+            <p class="lead additional-info-text-p mt-5 pt-1 px-0">Based in Ghana, we are an enterprise geospatial intelligence company harnessing the power of satellite data, AI, and 
+              analytics to drive sustainable solutions across industries.</p>
+
+            <p class="lead additional-info-text-p">Our expertise spans asset monitoring and management, environmental resource analytics, 
+              and data-driven impact solutions, empowering businesses, governments, and organizations with real-time insights for smarter decision-making.</p>
+
+          </div>
+          <div class="col-lg-6">
+            <h3 class="display-8 fw-bold text-body-emphasis lh-1 mb-3">Solving tomorrow's challenges today</h3>
+            <img src="./images/3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Career Sections -->
+    <section id="career-section">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/forest_plane.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="career-text-main display-5 fw-bold text-body-emphasis lh-1 mb-3">Careers</h1>
+            <h3 class="career-text-sub1">Explore exciting career opportunities with us.</h3>
+            <p class="lead career-text-p">Nyanza Technologies is constantly expanding its team and welcomes global talent in the fields of Technology, Artificial Intelligence, Computer Vision, Data science, Engineering and Marketing to cultivate their skills. We provide a warm and collaborative environment where individuals excel in their careers.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="mailto:nyanzatechnologies@gmail.com">Apply Now</a></button> -->
+              <a href="mailto:nyanzatechnologies@gmail.com" class="btn btn-primary btn-lg px-4 me-md-2">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- new footer section -->
+   <section id="footer-section">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>About & Careers</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#team-section" class="nav-link p-0 text-body-secondary">Our People</a></li>
+              <li class="nav-item mb-2"><a href="#career-section" class="nav-link p-0 text-body-secondary">Our Careers</a></li>
+              <li class="nav-item mb-2"><a href="#additional-info-section" class="nav-link p-0 text-body-secondary">Our Mission</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Partners</a></li> -->
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li> -->
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Solutions</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Forest Monitoring</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Solar Energy</a></li> -->
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Vehicle Tracking</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Fire Risk Monitoring</a></li> -->
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sites Monitoring</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Industries</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Insurance</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Environment</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">utilities</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Data</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Climate Action Policy</a></li> -->
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <!-- <label for="newsletter1" class="visually-hidden">Email address</label> -->
+                <!-- <input id="newsletter1" type="text" class="form-control" placeholder="Email address"> -->
+                <!-- <button class="btn btn-primary" type="button">Subscribe</button> -->
+
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLSdfyYTYSbbMkEZ6SmsnsE0DwNG9R3XU1Q1XxUq8m49J6uKv2Q/formResponse" method="post" target="_blank">
+                  <input type="email" name="entry.604961456" class="form-control" placeholder="Enter your email" required>
+                  <button class="btn btn-primary" type="submit">Subscribe</button>
+                </form>
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+          <!-- footer last div -->
+      <section id="footer-last-div">
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 mx-4 border-top socials-div">
+          <p>© 2025 Nyanza Technologies, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./images/twitter_new_brand_icon.svg" alt="X logo" width="32" height="32" class="rounded-circle border border-white"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./images/Instagram_logo_2016.svg" alt="Instagram logo" width="32" height="32" class="rounded-circle border border-white"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./images/circle-linkedin-512.webp" alt="linkedIn logo" width="32" height="32" class="rounded-circle border border-white"></a></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
