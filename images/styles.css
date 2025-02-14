@@ -1,0 +1,33 @@
+#nav-section {
+    background-color: black;
+}
+#our-main-message-section {
+    /* background-color: black; */
+    
+}
+#services-section {
+    
+}
+#team-section {
+
+}
+#additional-info-section {
+
+}
+#career-section {
+
+}
+#footer-section {
+
+}
+li.nav-item a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+span.fs-4.Nyanza {
+    color: white;
+}
+
