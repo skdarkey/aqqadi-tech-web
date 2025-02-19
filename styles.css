@@ -46,13 +46,13 @@ li.nav-item a {
     /* background: linear-gradient(300deg, #000000, #1c1c1c, #262626); */
      /* background: linear-gradient(300deg, #1f2e58, #0f1b34, #1a2a48);  */
     /*blue-green gradient */
-    /* background: linear-gradient(300deg, #1e3c72, #2a5298, #38a3a5);  */
+    background: linear-gradient(300deg, #1e3c72, #2a5298, #38a3a5); 
     /* dark-electric gradient */
     /* background: linear-gradient(300deg, #0f2027, #203a43, #2c5364); */
     /* pink-orange gradient */
     /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); */
     /* new */
-    background: linear-gradient(300deg, #edf8b1, #7fcdbb, #2c7fb8);
+    /* background: linear-gradient(300deg, #edf8b1, #7fcdbb, #2c7fb8);  */
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
