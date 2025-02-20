@@ -262,7 +262,11 @@ a img:hover {
         margin-top: 0px;
     }
 /*  to make the card back paragraphs well aligned */
-    div.card-back {
-        margin-top: 0px; 
+    p.card-back-text {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: large;
     }
 }
