@@ -191,6 +191,14 @@ a img:hover {
     background-color: white;
 }
 
+/* paragraphs with class card-back-test */
+p.card-back-text {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 /* media query for small screen */
 
 /* Media Query for Small Screens (below 550px) */
