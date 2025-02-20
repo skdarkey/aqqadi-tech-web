@@ -132,6 +132,7 @@ p.display-7 {
 }
 .card {
     perspective: 1000px; /* Enables 3D rotation effect */
+    align-items: center;
 }
 .card-inner {
     width: 100%;
@@ -197,6 +198,9 @@ p.card-back-text {
     padding-bottom: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.nav-item.mb-2 {
+    list-style: none;
 }
 
 /* media query for small screen */
