@@ -5,6 +5,12 @@ header {
     padding: 10px 0;
     transition: background 0.3s ease-in-out;
 }
+/* .company-logo img { */
+    /* background-color: white; */
+    /* fill: white; */
+    /* filter: invert(1); */
+
+/* } */
 /* navigation bar items */
 li.nav-item a {
     color: white;
@@ -44,15 +50,13 @@ li.nav-item a {
     /* background: linear-gradient(300deg, #000000, #333333, #4d4d4d); */
 
     /* background: linear-gradient(300deg, #000000, #1c1c1c, #262626); */
-     /* background: linear-gradient(300deg, #1f2e58, #0f1b34, #1a2a48);  */
+    /* background: linear-gradient(300deg, #1f2e58, #0f1b34, #1a2a48); */
     /*blue-green gradient */
     background: linear-gradient(300deg, #1e3c72, #2a5298, #38a3a5); 
     /* dark-electric gradient */
     /* background: linear-gradient(300deg, #0f2027, #203a43, #2c5364); */
     /* pink-orange gradient */
     /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172); */
-    /* new */
-    /* background: linear-gradient(300deg, #edf8b1, #7fcdbb, #2c7fb8);  */
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -76,6 +80,7 @@ li.nav-item a {
 }
 #additional-info-section {
     background-color: white;
+    /* background-color: black; */
 }
 #career-section {
     background-color: black;
@@ -115,8 +120,13 @@ p.career-text-p {
     font-family: Arial, Helvetica, sans-serif;
 }
 /* text in additional info section */
+/* h4.display-8 {
+    color: white !important;
+} */
+
 p.lead.additional-info-text-p {
     color: #000 !important;
+    /* color: white !important; */
     font-family: Arial, Helvetica, sans-serif;
     /* font-family: "Poppins", sans-serif; */
     /* font-size: larger; */
@@ -191,7 +201,6 @@ a img:hover {
 .socials-div img {
     background-color: white;
 }
-
 /* paragraphs with class card-back-test */
 p.card-back-text {
     padding-top: 3%;
@@ -202,7 +211,9 @@ p.card-back-text {
 .nav-item.mb-2 {
     list-style: none;
 }
-
+/* .footer-in-div {
+    text-align: left;
+} */
 /* media query for small screen */
 
 /* Media Query for Small Screens (below 550px) */
@@ -264,6 +275,8 @@ p.card-back-text {
         font-size: 2rem;
         font-family: "Poppins", sans-serif;
         padding-top: 50px; 
+
+        
         /* max-width: 800px; */
         /* margin: 0 auto; */
     }
@@ -273,7 +286,7 @@ p.card-back-text {
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 0px;
     }
-/*  to make the card back paragraphs well aligned */
+
     p.card-back-text {
         padding-top: 0%;
         padding-bottom: 0%;
@@ -281,4 +294,7 @@ p.card-back-text {
         margin-bottom: 0%;
         font-size: large;
     }
+    /* .footer-in-div {
+        text-align: left;
+    } */
 }
