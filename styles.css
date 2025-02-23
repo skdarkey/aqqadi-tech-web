@@ -104,7 +104,7 @@ h2.pb-2.core-team {
 /* main message property */
 .main-message {
     color: white !important;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Poppins", sans-serif;
 }
 
@@ -132,8 +132,14 @@ p.lead.additional-info-text-p {
     /* font-size: larger; */
 
 }
-p.display-7 {
-    font-size: larger;
+
+/* paragraphs with class card-back-test */
+p.display-7.card-back-text {
+    font-size: large;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 /* card flipping */ 
@@ -166,13 +172,12 @@ p.display-7 {
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
-p.lead {
+/* p.lead {
     font-family: "Roboto Condensed", serif;
     font-optical-sizing: auto;
-    /* font-size: 21px; */
     font-weight: 400;
     font-style: normal;
-}
+} */
 
 /* Flip effect on hover */
 .card:hover .card-inner {
@@ -201,13 +206,7 @@ a img:hover {
 .socials-div img {
     background-color: white;
 }
-/* paragraphs with class card-back-test */
-p.card-back-text {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+/* removing bullet pts from list items */
 .nav-item.mb-2 {
     list-style: none;
 }
