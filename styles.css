@@ -35,7 +35,7 @@ li.nav-item a {
     text-align: center;
     position: relative;
     padding-top: 80px; /* Prevents content from overlapping navbar */
-    /* background-image: url("./images/plan_color_background.png"); */
+    background-image: url("./images/static-tech-background.jpg");
     overflow: hidden; /* Ensures the video doesn't spill out */
 
 }
